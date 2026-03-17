@@ -1,3 +1,3 @@
-SELECT capital
-FROM country
-ORDER BY capital DESC;
+SELECT name 
+FROM country 
+ORDER BY name DESC;
