@@ -1,3 +1,4 @@
-SELECT name
+SELECT name, capital, continent
 FROM country
-WHERE region='Central America' OR region='North America';
+WHERE NOT continent='Europe'
+ORDER BY capital;
