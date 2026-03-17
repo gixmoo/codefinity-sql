@@ -1,3 +1,3 @@
 SELECT name 
 FROM country 
-ORDER BY name DESC;
+ORDER BY name;
