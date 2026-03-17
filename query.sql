@@ -1,3 +1,3 @@
-SELECT name, region, capital
+SELECT capital
 FROM country
-ORDER BY region DESC, capital DESC;
+ORDER BY capital DESC;
