@@ -1,3 +1,2 @@
-SELECT name 
-FROM country 
-ORDER BY name;
+SELECT id, name, population
+FROM country;
