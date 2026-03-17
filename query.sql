@@ -1,3 +1,4 @@
-SELECT name, population, region, capital
+SELECT name, region, capital, population
 FROM country
-WHERE population>= 300000;
+WHERE continent='Europe' AND population > 100000
+ORDER BY region, capital
