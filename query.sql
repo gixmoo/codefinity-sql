@@ -1,3 +1,3 @@
-SELECT id, name, population, region
+SELECT DISTINCT continent
 FROM country
-ORDER BY region DESC, population
+ORDER BY continent
