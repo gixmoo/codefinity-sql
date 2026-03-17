@@ -1,3 +1,4 @@
-SELECT DISTINCT continent
+SELECT id, name, population, continent
 FROM country
-ORDER BY continent
+WHERE continent='North America'
+ORDER BY population DESC;
