@@ -1,4 +1,3 @@
-SELECT id, name, population, continent
+SELECT name, population, region, capital
 FROM country
-WHERE continent='North America'
-ORDER BY population DESC;
+WHERE population>= 300000;
